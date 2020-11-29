@@ -1,0 +1,91 @@
+.App{
+   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+
+}
+.showtoolTip{
+   background-color: green;
+  
+   right: 0;
+
+   visibility:inherit;
+   color: white;
+   
+   
+   width: 100px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+
+
+
+}
+.hidetoolTip{
+   visibility: hidden;
+   padding: 10px;
+
+   text-align: center;
+  
+   width: 100px;
+
+
+
+}
+
+
+
+
+button{
+  padding: 10px;
+  border-radius: 20px;
+  background-color: dodgerblue;
+  text-align: center;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: bold;
+  height: 40px;
+  width: 200px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px;
+
+}
+
+.buttonContainer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+  
+
+   
+}
+
+.left{
+flex-direction: row;
+
+}
+
+.right{
+  flex-direction: row-reverse;
+
+}
+
+.top{
+  flex-direction: column;
+
+}
+
+.bottom{
+  flex-direction: column-reverse;
+ 
+
+}
+
+
+
