@@ -5,6 +5,7 @@ import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
+    {/* position prop is passing to button(top,bottom,left,right) */}
     <App position={"top"}/>
   </React.StrictMode>,
   document.getElementById('root')
