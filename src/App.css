@@ -87,5 +87,12 @@ flex-direction: row;
 
 }
 
+.dropDown{
+  position: fixed !important;
+  top: 10%;
+  right: 45%;
+  padding: 10px;
+}
+
 
 
